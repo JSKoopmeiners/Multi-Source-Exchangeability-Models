@@ -8,6 +8,8 @@ MEM_Simulations.R: R file to run the simulations discussed in the manuscript for
 
 Simulation Results: This is a sub-folder that contains the simulation output from MEM_Simulations.R and used to create the tables and figures in the manuscript.
 
+Figure2_code.R: Code to create Figure 2, which illustrates the asymptotic properties of MEMs in a number of scenarios
+
 Figure3_and_SupplementaryFigures_code.R: Code to create Figure 3 in the manuscript and the Figures in the supplementary materials
 
 Figure4_and_MiscellaneousSummaries_code.R: Code to create Figure 4 and miscellaneous summaries reported in the manuscript
