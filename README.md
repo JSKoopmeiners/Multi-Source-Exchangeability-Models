@@ -13,3 +13,9 @@ Figure3_and_SupplementaryFigures_code.R: Code to create Figure 3 in the manuscri
 Figure4_and_MiscellaneousSummaries_code.R: Code to create Figure 4 and miscellaneous summaries reported in the manuscript
 
 Table1_CENICp1Example_code.R: Code for completing real-data example reported in manuscript. Note - the raw data for CENICp1 are not publicaly available but only the sample mean and standard deviation are required to complete the analysis and they are provided in this file
+
+re_model_MetaAnalysis.txt: BRugs code for implementing standard hierarchical model
+
+inits_MetaAnalysis.txt: initial values for standard hierarchical model with three supplementary sources used in simulation and example
+
+inits_MetaAnalysis_2source.txt: initial values for standard hierarchical model with two supplementary sources used in simulation and example
