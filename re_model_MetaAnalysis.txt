@@ -1,0 +1,13 @@
+model{
+
+for(i in 1:k){
+  y[i] ~ dnorm(theta[i], prec.y[i])
+  theta[i] ~ dnorm(mu,prec)
+ }   
+
+ mu ~ dnorm(0.0,0.1)
+ tau ~ dunif(0,upper.unif)
+ prec <- 1/(tau*tau)
+ 
+}
+
